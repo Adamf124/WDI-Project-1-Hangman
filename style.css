@@ -1,7 +1,14 @@
-#container{
+@font-face {
+	font-family: bit wonder;
+	src:url(8-BIT_WONDER.TTF);
+}
+body {
+	font-family: bit wonder;
+}
+#container {
 	border: solid magenta;
 }
-#title{
+#title {
 
 	align-content: center;
 	border: solid red;
@@ -16,7 +23,10 @@
 	border: solid black;
 	/*border-radius: 50%;*/
 }
-#scroll{ 
+#subtitle {
+	text-align: center;
+}
+#scroll { 
 	height: 150vh;
 	border: solid;
 }
