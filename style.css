@@ -1,0 +1,22 @@
+#container{
+	border: solid magenta;
+}
+#title{
+
+	align-content: center;
+	border: solid red;
+	text-align: center;
+	display:block;
+}
+#newgame {
+	
+	display: block;
+	font-size: 2em;
+	float: right;
+	border: solid black;
+	/*border-radius: 50%;*/
+}
+#scroll{ 
+	height: 150vh;
+	border: solid;
+}
