@@ -8,5 +8,9 @@ console.log(alphabet)
 var alphalist = document.createElement('ul')
 alphaButtons = document.getElementById('buttons').appendChild(alphalist);
 
-
+alphabet.forEach(function(letter){
+  var li = document.createElement('li');
+  alphalist.appendChild(li);
+  li.innerHTML += letter;
+});
 }
