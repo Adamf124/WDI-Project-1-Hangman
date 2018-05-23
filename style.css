@@ -3,6 +3,7 @@
 	src:url(8-BIT_WONDER.TTF);
 }
 body {
+	margin: 0 auto auto auto;
 	font-family: bit wonder;
 }
 #container {
@@ -10,17 +11,17 @@ body {
 }
 #title {
 
-	align-content: center;
-	border: solid red;
+	justify-content: center;
+	/* border: solid red; */
 	text-align: center;
-	display:block;
+	/* display:block; */
 }
 #newgame {
-	
-	display: block;
-	font-size: 2em;
-	float: right;
-	border: solid black;
+	position: absolute;
+	right:10px;
+	display: inline-block;
+	font-size: .5em;
+	/* border: solid black; */
 	/*border-radius: 50%;*/
 }
 #subtitle {
