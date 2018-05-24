@@ -17,7 +17,15 @@ window.onload = function() {
    dashes(currentword)
    console.log('dashes: ' + hiddenwords)
    }
-
+   // grab current 
+   // push to array as dashes
+   function dashes(currentword){
+     for (let i = 0; i < currentword.length; i++) {
+       hiddenwords[i] = "- ";
+ 
+   }
+   }
+ 
       }
   
   start()
