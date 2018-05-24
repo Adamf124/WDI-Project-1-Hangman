@@ -1,3 +1,4 @@
+// T.T
 window.onload = function() {
   let letter = '';
   let currentword = "";
