@@ -11,6 +11,13 @@ window.onload = function() {
     
   }
   
+  function randomWord(){
+    currentword = secretwords[Math.floor(Math.random() * secretwords.length)]
+   console.log("current word: " + currentword)
+   dashes(currentword)
+   console.log('dashes: ' + hiddenwords)
+   }
+
       }
   
   start()
