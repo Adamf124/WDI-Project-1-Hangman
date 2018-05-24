@@ -34,7 +34,6 @@ window.onload = function() {
   }
   $('.letter').on('click', lettergrab)
   
-  
+    start()
       }
   
-  start()
