@@ -16,6 +16,7 @@ window.onload = function() {
    console.log("current word: " + currentword)
    dashes(currentword)
    console.log('dashes: ' + hiddenwords)
+   $('#guessHere').html(hiddenwords)
    }
    // grab current 
    // push to array as dashes
