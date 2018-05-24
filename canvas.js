@@ -25,7 +25,16 @@ window.onload = function() {
  
    }
    }
- 
+ // buttons to console.log
+ function lettergrab() {
+  letter = this.id
+  console.log('chosen letter:' + letter)
+  console.log(this.id)
+    return letter
+  }
+  $('.letter').on('click', lettergrab)
+  
+  
       }
   
   start()
