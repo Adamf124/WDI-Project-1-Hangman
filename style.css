@@ -23,6 +23,7 @@ canvas {
 }
 #newgame {
 	position: absolute;
+	top:-5px;
 	right:10px;
 	display: inline-block;
 	font-size: .5em;
@@ -35,4 +36,26 @@ canvas {
 #scroll { 
 	height: 150vh;
 	border: solid;
+}
+button{
+	font-family: bit wonder;
+	border: solid 1px rgb(87, 87, 87);
+	text-decoration:none;
+	cursor:pointer;
+	font-size:.2em;
+	padding:18px 10px;
+	/* width:180px; */
+	margin: 8px;
+	outline: none;
+}
+	
+button:hover{
+		background: rgb(97, 97, 97);
+		border: solid 1px white;
+	  }
+#guessHere{
+	width: 200px;
+	height: 400px;
+	border:solid black;
+
 }
