@@ -37,7 +37,7 @@ canvas {
 	height: 150vh;
 	border: solid;
 }
-button{
+input{
 	font-family: bit wonder;
 	border: solid 1px rgb(87, 87, 87);
 	text-decoration:none;
@@ -54,8 +54,12 @@ button:hover{
 		border: solid 1px white;
 	  }
 #guessHere{
-	width: 200px;
-	height: 400px;
+	padding: 75px 0 0 0;
+	text-align: center;
+	font-size: 3em;
+	margin:0  0 0 22%;
+	width: 800px;
+	height: 200px;
 	border:solid black;
 
 }
