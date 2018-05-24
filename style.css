@@ -5,6 +5,9 @@
 body {
 	margin: 0 auto auto auto;
 	font-family: bit wonder;
+	background-image: url(devbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 canvas {
 	border: solid black;
@@ -12,6 +15,7 @@ canvas {
 	width: 100%;
 }
 #container {
+	height: 100vh;
 	border: solid magenta;
 }
 #title {
@@ -62,4 +66,7 @@ button:hover{
 	height: 200px;
 	border:solid black;
 
+}
+#buttons{
+	margin-top: 25px;
 }

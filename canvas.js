@@ -28,14 +28,33 @@ window.onload = function() {
    }
    }
  // buttons to console.log
- function lettergrab() {
+ function lettergrab(choice) {
   letter = this.id
   console.log('chosen letter:' + letter)
   console.log(this.id)
     return letter
+  
   }
   $('.letter').on('click', lettergrab)
-  
+  // for each letter in hidden word 
+  // created array of hiddenword.split
+
+  function choice(letter) {
+    let guess = letter
+    let correct = false
+    currentword.split("")
+    for (let i = 0; i < currentword.length; i++) {
+        if (currentword[i] === guess) {
+            hiddenwords[i] = guess
+            $('#guessHere').text(hiddenwords.join(" "))
+          
+            correct = true
+        }
+    }
+    if (correct === false) {
+        lives--
+    }
+  }
     start()
       }
   
