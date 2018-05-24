@@ -3,7 +3,7 @@
 
 One of the more difficult projects I've had to create. This was a hangman created with (mostly) vanilla JS.
 
-Here's the BitBalloon: devshangman.bitballoon.com
+Here's the BitBalloon: https://devshangman.bitballoon.com
 Here's a link to the Git repo: https://github.com/Adamf124/WDI-Project-1-Hangman
 
 ##Description 
