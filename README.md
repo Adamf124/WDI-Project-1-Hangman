@@ -4,6 +4,7 @@
 One of the more difficult projects I've had to create. This was a hangman created with (mostly) vanilla JS.
 
 Here's the BitBalloon: https://devshangman.bitballoon.com
+
 Here's a link to the Git repo: https://github.com/Adamf124/WDI-Project-1-Hangman
 
 ##Description 
@@ -17,8 +18,8 @@ The initial planning phase was very light. Understanding the game was not the ha
 
 ## The Code
 
-My initial starting point was with the HTML since that would take the least amount of work. The hard part came when I added buttons. 
+My initial starting point was with the HTML since that would take the least amount of work. The hard part came when I added buttons. Buttons don't work in the console how you would expect them to and this was a MAJOR setback.
 
 ## VERSION 2 
 
-In the future, I hope to make it full functional and use HTMLM5 Canvas to animate the hanging man. 
+In the future, I hope to make it fully functional and use HTML5 Canvas to animate the hanging man. 
