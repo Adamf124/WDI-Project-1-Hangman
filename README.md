@@ -10,6 +10,7 @@ Here's a link to the Git repo: https://github.com/Adamf124/WDI-Project-1-Hangman
 Here's the link to the Trello board:https://trello.com/invite/b/5dsChJWP/288a99acfd0684ec66792135ea9160bb/wdi-project-1-developers-hangman
 
 ##Description 
+
 NOTE: Currently not fully functional.
 
 The game of hangman is pretty simple to play but not as simple to code. Simply a game where you are given a word to guess and have the english alphabet to choose from. You can only use each letter once and are given six lives.
