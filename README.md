@@ -6,7 +6,7 @@ One of the more difficult projects I've had to create. This was a hangman create
 Here's the BitBalloon: https://devshangman.bitballoon.com
 
 Here's a link to the Git repo: https://github.com/Adamf124/WDI-Project-1-Hangman
-
+Here's the link to the Trello board:https://trello.com/invite/b/5dsChJWP/288a99acfd0684ec66792135ea9160bb/wdi-project-1-developers-hangman
 ##Description 
 NOTE: Currently not fully functional.
 
